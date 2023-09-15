@@ -1,0 +1,134 @@
+$--color-main: #333;
+$--color-title: #ed1c24;
+$--color-hover: #f9b415;
+$--color-text: #6c757d;
+$--color-white: #fff;
+$--color-black: #000;
+$--color-border: #e71b23;
+$--color-placeholder: #555;
+$--color-bg-btn-see-more: #59bbef;
+$--color-border-fp-show-item: #bfbfbf;
+$--color-header-active: #5dbdf1;
+
+$--bg-mess: #1777f1;
+$--bg-zalo: #008ff3;
+
+$--fs-13: 13px;
+$--fs-14: 14px;
+$--fs-15: 15px;
+$--fs-16: 16px;
+$--fs-18: 18px;
+$--fs-20: 20px;
+$--fs-24: 24px;
+$--fs-28: 28px;
+$--fs-32: 32px;
+$--fs-34: 34px;
+
+$--height-header: 80px;
+$--height-header-top: 100px;
+$--height-header-bot: 40px;
+$--height-header-mb: 60px;
+
+$--min-width-1400: 1351px;
+$--min-width-1200: 1251px;
+$--min-width-992: 960px;
+$--min-width-768: 720px;
+$--min-width-576: 540px;
+
+@font-face {
+  font-family: "default";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../font/Nunito-Black.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "default";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../font/Nunito-Bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "default";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../font/Nunito-SemiBold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "default";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../font/Nunito-Medium.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "default";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/Nunito-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "default";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../font/Nunito-Light.ttf");
+  font-display: swap;
+}
+
+:root {
+  --container: 100%;
+  --fs-title-index: 28px;
+  --header: 95px;
+}
+
+@media (max-width: 576px) {
+  :root {
+    --container: 100%;
+    --fs-title-index: 28px;
+    --header: 95px;
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --fs-title-index: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --container: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+    --container: 960px;
+  }
+}
+
+@media (min-width: 1170px) {
+  :root {
+    --container: 1190px;
+  }
+}
+
+@media (max-width: 991px) {
+  :root {
+    --header: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --header: 50px;
+  }
+}
